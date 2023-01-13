@@ -1,0 +1,28 @@
+Name: Multitouch
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=e21bdca5aef0b8bda33011c210eefd8f
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable2
+  Id: g=ed1d2d3c6008a5ba5455f9eb83d3fe91
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable3
+  Id: g=36f159ba1c83e58d4bc30d0f1e951927
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable4
+  Id: g=e3db18e8033f13fa414130698415dd27
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable5
+  Id: g=91f3e93c55cd3f8816ae8a9a8359ebe6
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

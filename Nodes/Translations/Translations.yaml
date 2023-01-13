@@ -1,0 +1,47 @@
+Name: Translations
+Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [32,2],
+    "Body": [
+     "","en-US",
+     "ChangeUserFormOutputSuccessMessage","Change User successful",
+     "ChangeUserFormOutputLoginBlocked","Login attempt blocked",
+     "ChangeUserFormOutputErrorMessage","Wrong username or password",
+     "ChangePasswordFormSuccessMessage","Password changed successfully",
+     "ChangeUserFormOutputPasswordExpired","Password expired",
+     "ChangeUserFormOutputUnableToCreateUser","Unable to create user",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short",
+     "ChangePasswordFormUserNotFoundMessage","User not found",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match",
+     "Confirmation Dialog","Confirmation Dialog",
+     "Column0","Column0",
+     "Column1","Column1",
+     "ApplicationFolder","Application folder",
+     "Filename","File name",
+     "Size","Size",
+     "ProjectFolder","Project folder",
+     "Timestamp","Timestamp",
+     "Name","Name",
+     "Message","Message",
+     "Active","Active",
+     "SourceName","Source Variable",
+     "Acked","Acked",
+     "Severity","Severity",
+     "Confirmed","Confirmed",
+     "Refresh","Refresh",
+     "From","From",
+     "To","To"
+    ]
+   }

@@ -1,0 +1,15 @@
+Name: TankTypes
+Type: FolderType
+Children:
+- Name: Vertical
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Horizontal
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1
+- Name: Spherical
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2

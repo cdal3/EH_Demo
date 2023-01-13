@@ -1,0 +1,4039 @@
+Name: Tanks
+Type: FolderType
+Children:
+- Name: Tank1
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CalculatedDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_TSh
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_L_WarnGal
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RDC
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SW_Pct
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Csw
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: WAC
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: HTMS_Correction
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenValue
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: StrapTableLength
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 0
+    - Name: CTSh
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SPV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VCF
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_HH_AlarmGal
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_H_AlarmGal
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_L_AlarmGal
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_LL_AlarmGal
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_H_WarnGal
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TK-1"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ASPHALT"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 39693.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 5156.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 13.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank2
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank3
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank4
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank5
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank6
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank7
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank8
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank9
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+- Name: Tank10
+  Type: TankType
+  Children:
+  - Name: TankIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Inputs
+    Type: TankInputsType
+    Children:
+    - Name: GaugeLevel
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Outputs
+    Type: TankOutputsType
+    Children:
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Settings
+    Type: TankSettingsType
+    Children:
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: TankType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: LevelInstrumentType
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SumpPipeVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeRefHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: GaugeFullDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinPumpVolume
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Refreence_Temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_K
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: CTSh_Alpha
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_FloatRoofHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: FRC_RoofWeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: VaporPressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: BasePressureHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AirDensity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: SelectedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Units
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: GaugeEmptyDistance
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Options
+    Type: TankOptionsType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CTSh_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FRC_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: FWV_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HTMS_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: HighLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TemperatureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: PressureInstrumentEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: TrendPenDisplay
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: TrendPenMax
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TrendPenMin
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: NumberOfStrapPoints
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Hostlink_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LowLevelSW_Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Product
+    Type: TankProductType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: Number
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+  - Name: Values
+    Type: TankValuesType
+    Children:
+    - Name: BlindZoneHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Name: Alarms
+    Type: TankAlarmsType
+    Children:
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: Valves
+    Type: TankValvesType
+    Children:
+    - Name: Inlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+    - Name: Outlet
+      Type: ValvesType
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: OpenReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: DribbleReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: CloseReq
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Indicator
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+  - Name: HMI
+    Type: TankHMIType
+    Children:
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: DescShort
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductNumber
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+    - Name: ProductEditButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductCloseButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RequestedProduct
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductIndicator
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: ProductSelectButton
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidMass
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: AvailVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RemainVol
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: TOV_Percent
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: OutOfService
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: MaintenanceMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: CommFault
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: GaugeBlindZone
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Alm
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmAckDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AlmResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Warn
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnActDetails
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: WarnResetInd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ProductTemp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeight_FT
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: LiquidHeigh_FT_IN
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Batch_Run
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LiquidHeight_FT_temp
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0

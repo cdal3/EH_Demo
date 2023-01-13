@@ -1,0 +1,2368 @@
+Name: AlarmDetails
+Type: FolderType
+Children:
+- File: Template/Template.yaml
+- Name: TOV
+  Id: g=8bd489418ede837b9e80ca767bbafb7d
+  Supertype: AlarmAnalogConfig
+  ReferenceType: HasComponent
+  Children:
+  - Name: SelectedTank
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f106f8377bd23bfe56f84c54311db20","Namespace":28}
+  - Name: VerticalLayout1
+    Type: ColumnLayout
+    Children:
+    - Name: HorizontalLayout1
+      Type: RowLayout
+      Children:
+      - Name: Switch1
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Alarm/Enable"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/Admin"
+      - Name: Label1
+        Type: Label
+    - Name: Panel2
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+    - Name: Panel3
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+  - Name: Alarm_Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Total Observed Volume Alarms"
+  - Name: Alarm
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"697a51d98502c58734730fd829b2da71","Namespace":28}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{SelectedTank}/Alarms/TOV@NodeId"
+- Name: ProductTemperature
+  Id: g=e949dae9ef37b5c9cd3aa2374b65d00a
+  Supertype: AlarmAnalogConfig
+  ReferenceType: HasComponent
+  Children:
+  - Name: SelectedTank
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f106f8377bd23bfe56f84c54311db20","Namespace":28}
+  - Name: VerticalLayout1
+    Type: ColumnLayout
+    Children:
+    - Name: HorizontalLayout1
+      Type: RowLayout
+      Children:
+      - Name: Switch1
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Alarm/Enable"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/Admin"
+      - Name: Label1
+        Type: Label
+    - Name: Panel2
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+    - Name: Panel3
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+  - Name: Alarm_Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Product Temperature Alarms"
+  - Name: Alarm
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"697a51d98502c58734730fd829b2da71","Namespace":28}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{SelectedTank}/Alarms/ProductTemp@NodeId"
+- Name: ProductDensity
+  Id: g=ddacc310940970b5605ca7c5fa86614d
+  Supertype: AlarmAnalogConfig
+  ReferenceType: HasComponent
+  Children:
+  - Name: SelectedTank
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f106f8377bd23bfe56f84c54311db20","Namespace":28}
+  - Name: VerticalLayout1
+    Type: ColumnLayout
+    Children:
+    - Name: HorizontalLayout1
+      Type: RowLayout
+      Children:
+      - Name: Switch1
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Alarm/Enable"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/Admin"
+      - Name: Label1
+        Type: Label
+    - Name: Panel2
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+    - Name: Panel3
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+  - Name: Alarm_Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Product Density Alarms"
+  - Name: Alarm
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"697a51d98502c58734730fd829b2da71","Namespace":28}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{SelectedTank}/Alarms/ProductDensity@NodeId"
+- Name: VaporPressure
+  Id: g=7e0d31fc4a12ec90e58e92874066cdda
+  Supertype: AlarmAnalogConfig
+  ReferenceType: HasComponent
+  Children:
+  - Name: SelectedTank
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f106f8377bd23bfe56f84c54311db20","Namespace":28}
+  - Name: VerticalLayout1
+    Type: ColumnLayout
+    Children:
+    - Name: HorizontalLayout1
+      Type: RowLayout
+      Children:
+      - Name: Switch1
+        Type: Switch
+        Children:
+        - Name: Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Alarm/Enable"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/Admin"
+      - Name: Label1
+        Type: Label
+    - Name: Panel2
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/HH_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AlmSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/LL_AckEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+    - Name: Panel3
+      Type: Panel
+      Children:
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Alarm/Enable"
+      - Name: VerticalLayout1
+        Type: ColumnLayout
+        Children:
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout3
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/H_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout4
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+            Children:
+            - Name: Label1
+              Type: Label
+          - Name: Panel2
+            Type: Panel
+            Children:
+            - Name: Switch1
+              Type: Switch
+              Children:
+              - Name: Checked
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnEnabled"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel3
+            Type: Panel
+            Children:
+            - Name: TextBox1
+              Type: TextBox
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../../Alarm/L_WarnSP"
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Session}/Groups/Admin"
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout5
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+        - Name: HorizontalLayout2
+          Type: RowLayout
+          Children:
+          - Name: Panel1
+            Type: Panel
+          - Name: Panel2
+            Type: Panel
+          - Name: Panel3
+            Type: Panel
+          - Name: Panel4
+            Type: Panel
+  - Name: Alarm_Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Vapor Pressure Alarms"
+  - Name: Alarm
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"697a51d98502c58734730fd829b2da71","Namespace":28}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{SelectedTank}/Alarms/VaporPressure@NodeId"

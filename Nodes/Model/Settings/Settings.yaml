@@ -1,0 +1,5 @@
+Name: Settings
+Type: FolderType
+Children:
+- File: TankTypes/TankTypes.yaml
+- File: Tank Details/Tank Details.yaml

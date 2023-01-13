@@ -1,0 +1,7 @@
+Name: Panels
+Type: FolderType
+Children:
+- File: Headers/Headers.yaml
+- File: Footers/Footers.yaml
+- File: MainPanels/MainPanels.yaml
+- File: Dialogs/Dialogs.yaml

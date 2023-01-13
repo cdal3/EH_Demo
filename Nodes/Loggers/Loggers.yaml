@@ -1,0 +1,401 @@
+Name: Loggers
+Type: FolderType
+Children:
+- Name: DataLogger1
+  Id: g=133480182e16d5c4503bea020867cb1e
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"57e542fe5a1e93e31d8992e132449730","Namespace":28}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: VariableToSample1
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=d7a0a63ae862e6319ab18a5b9c395c63
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/CLX_EH/Tags/Controller Tags/Tank[1]/Values/TrendPenValue"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=11;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
+- Name: EventLogger1
+  Type: EventLogger
+  Children:
+  - Name: Enabled
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+  - Name: EventConfigurations
+    Type: BaseObjectType
+    Children:
+    - Name: EventConfiguration1
+      Type: EventConfiguration
+      Children:
+      - Name: EventType
+        Type: NodePointer
+        DataType: NodeId
+        ReferenceType: HasProperty
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":2041}
+  - Name: EventFieldPaths
+    Type: BaseObjectType
+  - Name: EventArguments
+    Type: BaseObjectType
+    Children:
+    - Name: EventTypeId
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EventFieldsToLog
+    Type: BaseObjectType
+- Name: AlarmsEventLogger
+  Id: g=9e304f87325016e565fe636ffc40d22e
+  Type: EventLogger
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Enabled
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"57e542fe5a1e93e31d8992e132449730","Namespace":28}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":17}
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      Value: 0
+  - Name: EventFieldPaths
+    Type: BaseObjectType
+    Children:
+    - Name: ActiveState_Id
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:ActiveState/0:Id"
+    - Name: AckedState_Id
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:AckedState/0:Id"
+    - Name: ConfirmedState_Id
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:ConfirmedState/0:Id"
+    - Name: ConditionName
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:ConditionName"
+    - Name: EnabledState_Id
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:EnabledState/0:Id"
+    - Name: SourceName
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:SourceName"
+    - Name: Time
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:Time"
+    - Name: Message
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:Message"
+    - Name: Severity
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:Severity"
+    - Name: LocalTime
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "0:LocalTime"
+  - Name: EventConfigurations
+    Type: BaseObjectType
+    Children:
+    - Name: EventConfiguration
+      Type: EventConfiguration
+      Children:
+      - Name: MonitorSubtree
+        Type: PropertyType
+        DataType: Boolean
+        Value: false
+      - Name: EventType
+        Type: NodePointer
+        DataType: NodeId
+        ReferenceType: HasProperty
+        Value: {"Id":2915}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":2041}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 1
+  - Name: EventArguments
+    Type: BaseObjectType
+    Children:
+    - Name: ActiveState_Id
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: AckedState_Id
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ConfirmedState_Id
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: ConditionName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: EnabledState_Id
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: SourceName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Time
+      Type: BaseDataVariableType
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: Message
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Severity
+      Type: BaseDataVariableType
+      DataType: UInt16
+      Value: 0
+    - Name: EventTypeId
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: LocalTime
+      Type: BaseDataVariableType
+      DataType: TimeZoneDataType
+      Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+  - Name: EventFieldsToLog
+    Type: BaseObjectType
+    Children:
+    - Name: ActiveState_Id
+      Type: EventFieldToLog
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/ActiveState_Id"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: AckedState_Id
+      Type: EventFieldToLog
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/AckedState_Id"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: ConfirmedState_Id
+      Type: EventFieldToLog
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/ConfirmedState_Id"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: ConditionName
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/ConditionName"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: EnabledState_Id
+      Type: EventFieldToLog
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/EnabledState_Id"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: SourceName
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/SourceName"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Time
+      Type: EventFieldToLog
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Time"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Message
+      Type: EventFieldToLog
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Message"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Severity
+      Type: EventFieldToLog
+      DataType: UInt16
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Severity"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: LocalTime
+      Type: EventFieldToLog
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          Value: "{0} + {1}"
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/Time"
+        - Name: ns=3;Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/LocalTime"

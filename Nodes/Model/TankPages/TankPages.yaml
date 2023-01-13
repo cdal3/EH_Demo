@@ -1,0 +1,88 @@
+Name: TankPages
+Id: g=2a46307ddb51e91be2ab0d14a008ee5b
+Type: FolderType
+Children:
+- Name: TankPage1
+  Id: g=c420985db91024aab64926d2eaf02dcb
+  Type: TankPageDataType
+  Children:
+  - Name: Enabled
+    Id: g=9e327485bd6c18c8bd3a113e5586ac76
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Title
+    Id: g=55e957998509f591cec3dc428204be24
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: TankPage2
+  Id: g=7e4a0f577270cd05171f7a30eda58fe4
+  Type: TankPageDataType
+  Children:
+  - Name: Enabled
+    Id: g=686fb31e3f77855be09bf52014b25822
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Title
+    Id: g=a32eff0864a1a56c9bb06726f5934aa2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: TankPage3
+  Id: g=0701c6d5f3a714f64ca32f3d4b7a1582
+  Type: TankPageDataType
+  Children:
+  - Name: Enabled
+    Id: g=2122a87dd8acdded37eb347564b042f7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Title
+    Id: g=14f2968d5119333dd49918a3b9387095
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: TankPage4
+  Id: g=e8cff2606306395ead0f52a005cde772
+  Type: TankPageDataType
+  Children:
+  - Name: Enabled
+    Id: g=efe3fdb483f04d9892e3fe02417ef875
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Title
+    Id: g=1e37279474da52c0eda177fc27688a18
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: TankPage5
+  Id: g=a0bf2b8df90f1b1951be99bc74b3cff0
+  Type: TankPageDataType
+  Children:
+  - Name: Enabled
+    Id: g=12db5a2e7a2292474f4003f8c5fd236a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Title
+    Id: g=2358d12dda1605a8dd827a01ddbaddf7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: SearchPage
+  Id: g=7e8a3913a3e34a0eb796454edeec050f
+  Type: TankPageDataType
+  Children:
+  - Name: Enabled
+    Id: g=05ed193a6e06f0aee8bee46b16520e1e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Title
+    Id: g=44b80eb6d4b69059bd0e960f9612b0d7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

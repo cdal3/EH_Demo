@@ -1,0 +1,344 @@
+Name: Tank Details
+Id: g=8acbaac8b91b8030068b7050e8b29f09
+Type: FolderType
+Children:
+- Name: VariableEnable
+  Id: g=da1561457831d1bcc6e3763eec5e6a45
+  Type: BaseObjectType
+  Children:
+  - Name: TankDetailValueRow1
+    Id: g=b4840b7a09600ff651d4d14998deab80
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=376290411d43852b859829ecc9ee3a76
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=704cc763422683bf0ae79056021a934d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Total Observed Volume"
+  - Name: TankDetailValueRow2
+    Id: g=1477166857b277e9ecb051ef41a7791c
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=3200d6770796d4c63a0c7115fab59046
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=48f33f22edad038a43dfa70a1c6e9ec0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Gross Observed Volume"
+  - Name: TankDetailValueRow3
+    Id: g=6c282beb5acdbbf07f36d8dd3e50b99f
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=9c6d79672e6e9d37b4ae2d12de8d6938
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=3992d110eb8392ba905e5cfd41cd7f1c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Remaining Volume"
+  - Name: TankDetailValueRow4
+    Id: g=c87d510272cd58e80ef6ddb0be62d9e5
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=35c2ad9c4830ae6296ce7f9c11b26d2c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=d2a05e55dfc2b5f5d24b4a4edafdad19
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Gross Standard Volume"
+  - Name: TankDetailValueRow5
+    Id: g=04aeb963e519943533ca4faa92defdbb
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=881ef0c6cbee413c4cc52ad2d5bf4c28
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=06e683cd3c289f59b71e406578fac5cf
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Net Standard Volume"
+  - Name: TankDetailValueRow6
+    Id: g=c9372e79794bfcdac9970b3e72eeb9ad
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=40d81a3e7ec81c68022d6f72ee7e8e66
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=a88bd53ed761bd361a585bcaa0e2bb9e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Observed Density"
+  - Name: TankDetailValueRow7
+    Id: g=9d4d08285a8671c488f4421b2f354e99
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=fd0600eaeb13f21d8afba3eae34f5828
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=4a19defe01647f01808cf387d7f25a98
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reference Temperature"
+  - Name: TankDetailValueRow8
+    Id: g=a75c7cf43768a3cb7fc709b6612811ce
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=4ddde2b365ee037d6608165ac0bd5232
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=e2a631a4021d85f02de154928e46ef7f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Liquid Mass"
+  - Name: TankDetailValueRow9
+    Id: g=f9dc4d12d264393ef9a1e3bf201fdf25
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=b29ddbbcb42491ee1237d2c7a713246c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=a528ba999c92a086fa181ef14bb8d59f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Net Weight In Air"
+  - Name: TankDetailValueRow10
+    Id: g=ada5b8fdbc3e8661ae8402b2ac0bebec
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=16f8e3b6c3fa5991ea1f6cfa7626d29e
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=e83447913ac443781d39e030cf4fc161
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Total Mass"
+  - Name: TankDetailValueRow11
+    Id: g=6cf9bf28ac0f49919e67f7e4512fa4b9
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=17f8d8276eac06c0770bc20bc7a04ca9
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=758fbb309fc7cca66391005d75087452
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Liquid Height"
+  - Name: TankDetailValueRow12
+    Id: g=00cc60de3fd2a1d09b862deaed56b23e
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=219bfa57f53945b896b0dc7dfd7b3ace
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=eedc5baa8d197b4673565404ec4af526
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Total Observed Volume"
+  - Name: TankDetailValueRow13
+    Id: g=23260a9c01093a0dfc6c7b1f0ddd7f49
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=0e852778d8b70e5c200934ed366a0bc0
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=5507a5815b0ac4e93643811d88de6c8d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Available Volume"
+  - Name: TankDetailValueRow14
+    Id: g=fb46f5c58f9dd6640a5a062d3e1e5790
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=8f9d11a465f0720e5438dd2a130317c5
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=209aa5318f6709e5604cf535cdd94cee
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Free Water Volume"
+  - Name: TankDetailValueRow15
+    Id: g=8c936da1820de51c4c46f3d9782eaacd
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=f1a7022bf141a2fd0b61356f475a11a1
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=5ce08cf7d91cd4be069a4ef3f42fc747
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sediment & Water Volume"
+  - Name: TankDetailValueRow16
+    Id: g=1ea8bb985430da25ccd21cfa3ea243c9
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=76b3a6c1c45871590ad1a8958caa5862
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=a8c6576fefd171b3266572b310552fe7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Vapor Volume"
+  - Name: TankDetailValueRow17
+    Id: g=c77404a5e260c637b47618f52c455414
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=02ef065b90bfb79005bc59a234fb49d7
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=6d986601ee012d0399ceeb252e4b2349
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Total Calculated Volume"
+  - Name: TankDetailValueRow18
+    Id: g=7676db92940f0051e6666e24ccc8f025
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=3687cc676b0844fccaf7585b06f221fe
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=749cdf96db60ea9998564965d40808ea
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Vapor Mass"
+  - Name: TankDetailValueRow19
+    Id: g=8a12763bf3187f9cd8b88f0319bad611
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=f1be4534868d8293c1a78ffe1e9ce70f
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=7913c7a879b94864ae0495802b71ec1a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mass Flow"
+  - Name: TankDetailValueRow20
+    Id: g=958895b77de9383422b567c23295ee89
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=b3ae7a37732c839ec10f9d7f1131f62a
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=e034b9c261eb085bb2c2be6fd49d9981
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Volume Flow"
+  - Name: TankDetailValueRow21
+    Id: g=4ec6185a9b2699cff8ed3ecb763d0f84
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=2dcdd03a1c5d48c6500cb80a66742cab
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=870d541b079a38f3689f63e1d3e056ae
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reference Density"
+  - Name: TankDetailValueRow22
+    Id: g=8149d7de714ccbe1dbf946b9c46eb394
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=2a4959cdccfa05aed625447c0c99b590
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=d9e2331e56d189655ef03a15ccc88f8c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Product Temperature"
+  - Name: TankDetailValueRow23
+    Id: g=9363d1304bfd7a2fb0baf509ce3e26d1
+    Type: TankDetailValueRowType
+    Children:
+    - Name: Enabled
+      Id: g=ac628c8a557b89a99003cab803511d4b
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Label
+      Id: g=ec408e66c266a4a1829731aa8a927956
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Liquid Height"
+- Name: TankDetailValueRowType
+  Id: g=af541ff7361f58caecbd84066f40f9e1
+  Supertype: BaseObjectType
+  Children:
+  - Name: Enabled
+    Id: g=7919a1621ead5fa9901fc74e00d56142
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Label
+    Id: g=d2f13bd590d6a7f4d5188d2ffb50fb9d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

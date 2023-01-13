@@ -1,0 +1,814 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: ValveIndicatorConverter
+  Id: g=96b71aeaf362df1a622f3737f2273ced
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Closed"
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Opened"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Dribble"
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Closing"
+    - Name: Pair4
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 4
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Opening"
+    - Name: Pair5
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 5
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Fault"
+- Name: DetailsPanelLayoutConverter
+  Id: g=2d7ce599a9adeaf3f4684744a8332c92
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"c4d12a7b0b7355b86b1e67db4aa794c9","Namespace":28}
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"620c619d474b11cb83eb939fd2827753","Namespace":28}
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"d0239a729216cc88eacdf905306c6712","Namespace":28}
+- Name: TankTypeConverter
+  Id: g=8581cd782d5f35ed70bf764a3195e2d7
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Vertical"
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Horizontal"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Spherical"
+- Name: DensityCalcConverter
+  Id: g=41f3802002744386ecae17142b8f5bca
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Constant Density"
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Line Fit"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DIPPR105 Equation"
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Thermal Expansion"
+- Name: TankDetailValueLabelConverter
+  Id: g=db4e694721eca039574d35683326b63b
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Total Observed Volume"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Gross Observed Volume"
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Remaining Volume"
+    - Name: Pair4
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 4
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Gross Standard Volume"
+    - Name: Pair5
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 5
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Net Standard Volume"
+    - Name: Pair6
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 6
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Observed Density"
+    - Name: Pair7
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 7
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reference Temperature"
+    - Name: Pair8
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 8
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Liquid Mass"
+    - Name: Pair9
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 9
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Net Weight In Air"
+    - Name: Pair10
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 10
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Total Mass"
+    - Name: Pair11
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 11
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Liquid Height"
+    - Name: Pair12
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 12
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Total Observed Volume"
+    - Name: Pair13
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 13
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Available Volume"
+    - Name: Pair14
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 14
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Free Water Volume"
+    - Name: Pair15
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 15
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sediment & Water Volume"
+    - Name: Pair16
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 16
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Vapor Volume"
+    - Name: Pair17
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 17
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Total Calculated Volume"
+    - Name: Pair18
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 18
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Vapor Mass"
+    - Name: Pair19
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 19
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Mass Flow"
+    - Name: Pair20
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 20
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Volume Flow"
+    - Name: Pair21
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 21
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reference Density"
+    - Name: Pair22
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 22
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Product Temperature"
+    - Name: Pair23
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 23
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Liquid Height"
+- Name: TankDetailValueConverter
+  Id: g=c935e0abef0151d36480ddff2a463546
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SelectedTank}/Outputs/TOV@Value"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SelectedTank}/Outputs@Value"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair4
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 4
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair5
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 5
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair6
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 6
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair7
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 7
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair8
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 8
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair9
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 9
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair10
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 10
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair11
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 11
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair12
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 12
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair13
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 13
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair14
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 14
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair15
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 15
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair16
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 16
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair17
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 17
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair18
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 18
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair19
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 19
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair20
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 20
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair21
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 21
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair22
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 22
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+    - Name: Pair23
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 23
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+- Name: MultiTouchColorConverter
+  Id: g=92f96d3558d0d9f83aba6c46aa08538c
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: false
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ff0f0f"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#25fe29"

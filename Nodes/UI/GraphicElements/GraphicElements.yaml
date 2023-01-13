@@ -1,0 +1,168 @@
+Name: GraphicElements
+Type: FolderType
+Children:
+- Name: Nav_Close
+  Id: g=1dceb680cff345dbb785a809eb7a1915
+  Supertype: ScaleLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: FillColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#d1d3d4"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+  - Name: Icon_border
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=28;%PROJECTDIR%/res/Nav_Close_Icon_border.svg"
+    - Name: DynamicColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#d1d3d4"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FillColor"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+  - Name: OriginalWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+  - Name: OriginalHeight
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+- Name: UnlockIcon
+  Id: g=583d756bcc664624ad53d860017fff61
+  Supertype: ScaleLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: FillColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#d1d3d4"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 15.75
+  - Name: Icon_border
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=28;%PROJECTDIR%/res/UnlockIcon_Icon_border.svg"
+    - Name: DynamicColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#d1d3d4"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FillColor"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.75
+  - Name: OriginalWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+  - Name: OriginalHeight
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 15.75
+- Name: LockIcon
+  Id: g=d5f70b59e536475698d1204501483d11
+  Supertype: ScaleLayout
+  ReferenceType: HasComponent
+  Children:
+  - Name: FillColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#d1d3d4"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 14.142999649047852
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0
+  - Name: Icon_border
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=28;%PROJECTDIR%/res/LockIcon_Icon_border.svg"
+    - Name: DynamicColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#d1d3d4"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FillColor"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.142999649047852
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+  - Name: OriginalWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 14.142999649047852
+  - Name: OriginalHeight
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 18.0

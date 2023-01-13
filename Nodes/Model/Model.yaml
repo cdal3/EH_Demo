@@ -1,0 +1,70 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: ClockLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: UTCTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+- File: Tanks/Tanks.yaml
+- File: TankPages/TankPages.yaml
+- File: Types/Types.yaml
+- File: Settings/Settings.yaml
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: -1
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- File: Multitouch/Multitouch.yaml
+- File: PLCData/PLCData.yaml
+- Name: SelectedTankPage
+  Id: g=b30eb00cfcc6c854321b9b91c9471490
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

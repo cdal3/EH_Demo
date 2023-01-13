@@ -1,0 +1,7 @@
+Name: Groups
+Id: g=4ae793b98f72a1e9c1a3f078277e2ef2
+Type: FolderType
+Children:
+- Name: Admin
+  Id: g=f60c8ba4b324a2387a844f187e78f438
+  Type: GroupType
