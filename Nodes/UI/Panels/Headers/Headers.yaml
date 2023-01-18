@@ -2252,7 +2252,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 10.0
+            Value: 20.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
