@@ -13,7 +13,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 600.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -84,7 +84,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-    - Name: Panel1
+    - Name: Panel2
       Type: Panel
       Children:
       - Name: Width
@@ -96,7 +96,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 60.0
+        Value: 70.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -201,6 +201,26 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
       - Name: Label1
         Type: Label
         Children:
@@ -208,7 +228,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Confirm Tank Selection"}
+          Value: {"LocaleId":"en-US","Text":"Confirm Selection"}
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -219,16 +239,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 5.0
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
     - Name: Label1
       Type: Label
       Children:
@@ -320,22 +330,22 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
@@ -479,22 +489,22 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 10.0
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
@@ -583,7 +593,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 600.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -713,7 +723,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-    - Name: Panel1
+    - Name: Panel2
       Type: Panel
       Children:
       - Name: Width
@@ -725,7 +735,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 60.0
+        Value: 70.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -830,6 +840,26 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
       - Name: Label1
         Type: Label
         Children:
@@ -851,248 +881,214 @@ Children:
     - Name: Login1
       Type: Login
       Children:
-      - Name: Username
-        Type: ComboBox
+      - Name: VerticalLayout1
+        Type: ColumnLayout
         Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Model
-          Type: NodePointer
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: HorizontalLayout1
+          Type: RowLayout
           Children:
-          - Name: ItemKind
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{Users}@NodeId"
-        - Name: SelectedValue
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-        - Name: SelectedItem
-          Type: NodePointer
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: UISelectedItem
-          Type: BaseDataVariableType
-          DataType: NodeId
-          AccessLevel: Read
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: UISelectedValue
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          AccessLevel: Read
-        - Class: Reference
-          Target: ns=5;i=480
-          Direction: Forward
-        - Name: Item
-          Type: Alias
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: ComboBoxModeEnum
-          Value: 2
-      - Name: Password
-        Type: TextBox
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: ValueChangeBehaviour
-          Type: BaseDataVariableType
-          DataType: ValueChangeBehaviour
-          ModellingRule: Optional
-          Value: 1
-      - Name: LoginButton
-        Type: Button
-        Children:
-        - Name: MouseClickEventHandler1
-          Type: EventHandler
-          Children:
-          - Name: ListenEventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"Id":16,"Namespace":5}
-          - Name: MethodsToCall
-            Type: BaseObjectType
+          - Name: Username
+            Type: ComboBox
             Children:
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"Id":58}
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../LoginButtonLogic@NodeId"
-              - Name: Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "PerformLogin"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: username
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: ""
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../Username/Text"
-                - Name: password
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: ""
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../Password/Text"
-          - Name: EventArguments
-            Type: MouseClickEvent
-            Children:
-            - Name: EventId
-              Type: PropertyType
-              DataType: ByteString
-              Value: ""
-            - Name: EventType
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: SourceNode
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: SourceName
-              Type: PropertyType
-              DataType: String
-              Value: ""
-            - Name: Time
-              Type: PropertyType
-              DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
-            - Name: ReceiveTime
-              Type: PropertyType
-              DataType: UtcTime
-              Value: "1601-01-01T00:00:00.0000000"
-            - Name: Message
-              Type: PropertyType
+            - Name: Text
+              Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            - Name: Severity
-              Type: PropertyType
-              DataType: UInt16
-              Value: 0
-        - Name: LoginButtonLogic
-          Type: NetLogic
-          Children:
-          - Class: Reference
-            Target: g=95307a5666e4f7ff6666688db847dc88
-            Direction: Forward
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Login"}
-        - Name: Appearance
-          Type: BaseVariableType
-          DataType: String
-          ModellingRule: Optional
-          Value: ""
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 55.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 75.0
-      - Name: LoginFormOutputMessage
-        Type: Label
-        Children:
-        - Name: Message
-          Type: BaseDataVariableType
-          DataType: String
-          Value: ""
-          Children:
-          - Name: KeyValueConverter1
-            Type: ValueMapConverter
-            Children:
-            - Name: Source
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
+            - Name: Model
+              Type: NodePointer
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
+              - Name: ItemKind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../LoginResultCode"
-        - Name: LoginResultCode
-          Type: BaseDataVariableType
-          DataType: Int32
-          Value: 0
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Value: "{Users}@NodeId"
+            - Name: SelectedValue
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+            - Name: SelectedItem
+              Type: NodePointer
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: UISelectedItem
+              Type: BaseDataVariableType
+              DataType: NodeId
+              AccessLevel: Read
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: UISelectedValue
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              AccessLevel: Read
+            - Class: Reference
+              Target: ns=5;i=480
+              Direction: Forward
+            - Name: Item
+              Type: Alias
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: ComboBoxModeEnum
+              Value: 2
+          - Name: Password
+            Type: TextBox
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: LoginButton
+          Type: Button
           Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../Message"
-        - Name: LoginFormOutputMessageLogic
-          Type: NetLogic
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":16,"Namespace":5}
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"Id":58}
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../LoginButtonLogic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "PerformLogin"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: username
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../HorizontalLayout1/Username/Text"
+                  - Name: password
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../HorizontalLayout1/Password/Text"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+          - Name: LoginButtonLogic
+            Type: NetLogic
+            Children:
+            - Class: Reference
+              Target: g=95307a5666e4f7ff6666688db847dc88
+              Direction: Forward
+        - Name: LoginFormOutputMessage
+          Type: Label
           Children:
-          - Class: Reference
-            Target: g=ef77f36d335b3d96de1d99194816a7b7
-            Direction: Forward
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 170.0
+          - Name: Message
+            Type: BaseDataVariableType
+            DataType: String
+            Value: ""
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../LoginResultCode"
+          - Name: LoginResultCode
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 0
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../Message"
+          - Name: LoginFormOutputMessageLogic
+            Type: NetLogic
+            Children:
+            - Class: Reference
+              Target: g=ef77f36d335b3d96de1d99194816a7b7
+              Direction: Forward
       - Name: Users
         Type: Alias
         DataType: NodeId
@@ -1111,16 +1107,6 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":515,"Namespace":5}
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
   - Name: Modal
     Type: BaseDataVariableType
     DataType: Boolean
@@ -1359,11 +1345,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
     - Name: ListBox1
       Type: ListBox
       Children:
@@ -1523,11 +1504,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
@@ -1680,11 +1656,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
@@ -2110,7 +2081,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -2398,7 +2369,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 80.0
+              Value: 120.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -2442,11 +2413,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 15.0
             - Name: Visible
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2488,11 +2454,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 15.0
             - Name: Visible
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2534,11 +2495,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 15.0
             - Name: Visible
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2580,11 +2536,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 15.0
             - Name: Visible
               Type: BaseDataVariableType
               DataType: Boolean
@@ -3905,11 +3856,6 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"Vapor Density"}
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 15.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4124,11 +4070,6 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"LocaleId":"en-US","Text":"Ref Temp"}
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 15.0
                 - Name: LeftMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -4246,11 +4187,6 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"LocaleId":"en-US","Text":"Typical: 60 degF"}
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 15.0
                 - Name: LeftMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -4292,11 +4228,6 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"LocaleId":"en-US","Text":"Ref Density"}
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 15.0
                 - Name: LeftMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -4414,11 +4345,6 @@ Children:
                   DataType: LocalizedText
                   ModellingRule: Optional
                   Value: {"LocaleId":"en-US","Text":"Density @ Ref Temp"}
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 15.0
                 - Name: LeftMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -4434,378 +4360,6 @@ Children:
     DataType: Boolean
     ModellingRule: Optional
     Value: false
-- Name: ConfirmationDialog
-  Id: g=7551a426e4563338f7085d5382147786
-  Supertype: Dialog
-  DisplayName: {"NamespaceIndex":28,"TextId":"Confirmation Dialog"}
-  ReferenceType: HasComponent
-  Children:
-  - Class: Reference
-    Target: ns=5;i=519
-    Direction: Forward
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 300.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 300.0
-  - Name: ConfirmationDialogContext
-    Type: Alias
-    DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"IdType":2,"Id":"8be70b385fa6b0c193148c04d2961b0b","Namespace":28}
-  - Name: Rectangle1
-    Type: Rectangle
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-  - Name: Button1
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Confirm"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 245.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Appearance
-      Type: BaseVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "accent"
-    - Name: EventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":16,"Namespace":5}
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"Id":58}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{ConfirmationDialogContext}/OnConfirm@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Invoke"
-        - Name: MethodContainer2
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"Id":58}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../..@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Close"
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-          Value: ""
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-          Value: ""
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-          Value: 0
-  - Name: Button2
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Cancel"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 180.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 245.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: EventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":16,"Namespace":5}
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"Id":58}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{ConfirmationDialogContext}/OnCancel@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Invoke"
-        - Name: MethodContainer2
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"Id":58}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../..@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Close"
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-          Value: ""
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-          Value: ""
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-          Value: 0
-  - Name: Label1
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "{ConfirmationDialogContext}/Message"
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 2
-- Name: ConfirmationDialogContext
-  Id: g=8be70b385fa6b0c193148c04d2961b0b
-  Supertype: BaseObjectType
-  Children:
-  - Name: OnConfirm
-    Type: MethodInvocation
-    Children:
-    - Class: Reference
-      Target: ns=3;i=98
-      Direction: Forward
-    - Name: ObjectPointer
-      Type: NodePointer
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":58}
-    - Name: Method
-      Type: BaseDataVariableType
-      DataType: String
-      Value: ""
-  - Name: OnCancel
-    Type: MethodInvocation
-    Children:
-    - Class: Reference
-      Target: ns=3;i=98
-      Direction: Forward
-    - Name: ObjectPointer
-      Type: NodePointer
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":58}
-    - Name: Method
-      Type: BaseDataVariableType
-      DataType: String
-      Value: ""
-  - Name: Message
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-- File: ChangeUserForm1/ChangeUserForm1.yaml
-- File: LoginForm1/LoginForm1.yaml
-- File: UIConfig/UIConfig.yaml
 - Name: AssignTankDialog
   Id: g=05fa46eeba63e275b59079b90d5f3082
   Supertype: Dialog
@@ -4818,7 +4372,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 600.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -5646,11 +5200,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:
@@ -5702,11 +5251,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
@@ -5864,11 +5408,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
         - Name: Enabled
           Type: BaseDataVariableType
           DataType: Boolean
@@ -6020,11 +5559,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
         - Name: MouseClickEventHandler1
           Type: EventHandler
           Children:
@@ -6137,6 +5671,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Session}/Groups/Admin"
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -6180,11 +5719,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
         - Name: Enabled
           Type: BaseDataVariableType
           DataType: Boolean
@@ -6302,3 +5836,52 @@ Children:
     DataType: Boolean
     ModellingRule: Optional
     Value: false
+- Name: ConfirmationDialogContext
+  Id: g=8be70b385fa6b0c193148c04d2961b0b
+  Supertype: BaseObjectType
+  Children:
+  - Name: OnConfirm
+    Type: MethodInvocation
+    Children:
+    - Class: Reference
+      Target: ns=3;i=98
+      Direction: Forward
+    - Name: ObjectPointer
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":58}
+    - Name: Method
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+  - Name: OnCancel
+    Type: MethodInvocation
+    Children:
+    - Class: Reference
+      Target: ns=3;i=98
+      Direction: Forward
+    - Name: ObjectPointer
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":58}
+    - Name: Method
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- File: ChangeUserForm1/ChangeUserForm1.yaml
+- File: LoginForm1/LoginForm1.yaml
+- File: UIConfig/UIConfig.yaml

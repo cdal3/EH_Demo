@@ -208,6 +208,16 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
         - Name: HorizontalLayout3
           Type: RowLayout
           Children:
@@ -314,6 +324,16 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
         - Name: HorizontalLayout4
           Type: RowLayout
           Children:
@@ -328,6 +348,11 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: -1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -410,6 +435,16 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
         - Name: HorizontalLayout5
           Type: RowLayout
           Children:
@@ -506,6 +541,16 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
     - Name: Panel3
       Type: Panel
       Children:
@@ -1086,7 +1131,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -4.0
+                Value: -1.0
               - Name: RightMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -1096,7 +1141,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -18.0
+                Value: -1.0
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -1896,6 +1941,11 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: -1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1925,6 +1975,26 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -2200,6 +2270,16 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -2680,6 +2760,11 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: -1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: Panel2
             Type: Panel
             Children:

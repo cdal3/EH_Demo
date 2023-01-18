@@ -2060,7 +2060,7 @@ Children:
   - Name: FullScreen
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Value: true
 - File: Panels/Panels.yaml
 - File: Templates/Templates.yaml
 - File: GraphicElements/GraphicElements.yaml
