@@ -154,11 +154,6 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 10.0
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
               - Name: RightMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -275,7 +270,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 50.0
+              Value: 30.0
             - Name: TextHorizontalAlignment
               Type: BaseVariableType
               DataType: TextHorizontalAlignment
@@ -347,11 +342,6 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 10.0
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
               - Name: RightMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -499,7 +489,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -509,7 +499,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -546,7 +536,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
           - Name: TextBox1
             Type: TextBox
             Children:
@@ -579,7 +569,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 20.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -667,7 +657,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -677,7 +667,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -724,7 +714,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
           - Name: TextBox1
             Type: TextBox
             Children:
@@ -757,7 +747,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 20.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -845,7 +835,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -855,7 +845,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -892,7 +882,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
           - Name: TextBox1
             Type: TextBox
             Children:
@@ -925,7 +915,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 20.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -1013,7 +1003,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -1023,7 +1013,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -1060,7 +1050,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
           - Name: TextBox1
             Type: TextBox
             Children:
@@ -1093,7 +1083,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 20.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -1181,7 +1171,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -1191,7 +1181,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -1228,7 +1218,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
           - Name: TextBox1
             Type: TextBox
             Children:
@@ -1261,7 +1251,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 20.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -1349,7 +1339,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 60.0
+              Value: 75.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -1359,7 +1349,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 10.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -1396,7 +1386,59 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
+              Value: 10.0
+          - Name: TextBox1
+            Type: TextBox
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{NodeId:ns=28;g=2e53f89c-5056-2559-c0af-194dcd6c55ca}"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 110.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
               Value: 5.0
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Session}/Groups/Admin"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1411,7 +1453,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
+          Value: true
       - Name: Row8
         Type: Panel
         Children:
@@ -1585,11 +1627,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 30.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -1706,7 +1743,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 50.0
+            Value: 30.0
           - Name: TextHorizontalAlignment
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
@@ -1778,11 +1815,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 30.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -2768,11 +2800,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 30.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -2889,7 +2916,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 50.0
+            Value: 30.0
           - Name: TextHorizontalAlignment
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
@@ -2961,11 +2988,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 10.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 30.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -3088,7 +3110,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: -1.0
+            Value: 150.0
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
@@ -3096,7 +3118,7 @@ Children:
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 0
+            Value: 2
           - Name: OrderBy
             Type: BaseDataVariableType
             DataType: NodePath

@@ -43,6 +43,11 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{Session}/Groups/Admin"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 75.0
       - Name: Label1
         Type: Label
     - Name: Panel2
@@ -68,21 +73,45 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout2
           Type: RowLayout
           Children:
@@ -91,6 +120,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -115,6 +150,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -163,6 +203,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout3
           Type: RowLayout
           Children:
@@ -171,6 +216,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -195,6 +246,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -243,6 +309,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout4
           Type: RowLayout
           Children:
@@ -251,6 +322,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -275,6 +352,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -323,6 +405,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout5
           Type: RowLayout
           Children:
@@ -331,6 +418,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -355,6 +448,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -403,6 +501,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
     - Name: Panel3
       Type: Panel
       Children:
@@ -426,16 +529,34 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
         - Name: HorizontalLayout3
@@ -446,6 +567,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -470,6 +597,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -504,6 +646,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -528,6 +676,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -659,21 +812,45 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout2
           Type: RowLayout
           Children:
@@ -682,6 +859,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -706,6 +889,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -754,6 +942,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
         - Name: HorizontalLayout3
           Type: RowLayout
           Children:
@@ -762,6 +965,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -786,6 +995,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -834,6 +1058,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
         - Name: HorizontalLayout4
           Type: RowLayout
           Children:
@@ -842,6 +1081,32 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -4.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -18.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -866,6 +1131,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -914,6 +1184,31 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout5
           Type: RowLayout
           Children:
@@ -922,6 +1217,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -946,6 +1247,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -994,6 +1300,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
     - Name: Panel3
       Type: Panel
       Children:
@@ -1017,16 +1338,34 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
         - Name: HorizontalLayout3
@@ -1037,6 +1376,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1061,6 +1406,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1095,6 +1455,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1119,6 +1485,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1250,21 +1621,45 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout2
           Type: RowLayout
           Children:
@@ -1273,6 +1668,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1297,6 +1698,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1345,6 +1751,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout3
           Type: RowLayout
           Children:
@@ -1353,6 +1774,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1377,6 +1804,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1425,6 +1867,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout4
           Type: RowLayout
           Children:
@@ -1433,6 +1890,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1457,6 +1920,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1505,6 +1973,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout5
           Type: RowLayout
           Children:
@@ -1513,6 +1996,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1537,6 +2026,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1585,6 +2079,31 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
     - Name: Panel3
       Type: Panel
       Children:
@@ -1608,16 +2127,34 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
         - Name: HorizontalLayout3
@@ -1628,6 +2165,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1652,6 +2195,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1686,6 +2234,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1710,6 +2264,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1841,21 +2400,45 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
         - Name: HorizontalLayout2
           Type: RowLayout
           Children:
@@ -1864,6 +2447,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1888,6 +2477,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -1936,6 +2530,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout3
           Type: RowLayout
           Children:
@@ -1944,6 +2553,17 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: Elide
+                Type: BaseDataVariableType
+                DataType: ElideEnum
+                ModellingRule: Optional
+                Value: 0
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -1968,6 +2588,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -2016,6 +2651,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout4
           Type: RowLayout
           Children:
@@ -2024,6 +2674,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -2048,6 +2704,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -2096,6 +2757,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
         - Name: HorizontalLayout5
           Type: RowLayout
           Children:
@@ -2104,6 +2780,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -2128,6 +2810,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -2176,6 +2863,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
     - Name: Panel3
       Type: Panel
       Children:
@@ -2199,16 +2901,34 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel3
             Type: Panel
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel4
             Type: Panel
         - Name: HorizontalLayout3
@@ -2219,6 +2939,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -2243,6 +2969,21 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:
@@ -2277,6 +3018,12 @@ Children:
             Children:
             - Name: Label1
               Type: Label
+              Children:
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
           - Name: Panel2
             Type: Panel
             Children:
@@ -2301,6 +3048,11 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Session}/Groups/Admin"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 75.0
           - Name: Panel3
             Type: Panel
             Children:

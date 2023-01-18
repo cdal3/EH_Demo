@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [32,2],
+    "Dimensions": [36,2],
     "Body": [
      "","en-US",
      "ChangeUserFormOutputSuccessMessage","Change User successful",
@@ -42,6 +42,10 @@ Children:
      "Confirmed","Confirmed",
      "Refresh","Refresh",
      "From","From",
-     "To","To"
+     "To","To",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "Confirm All","Confirm All"
     ]
    }

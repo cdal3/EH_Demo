@@ -6829,7 +6829,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 80.0
+              Value: 150.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -6859,6 +6859,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Session}/Groups/Admin"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
           - Name: Label1
             Type: Label
             Children:
@@ -7103,7 +7108,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 60.0
+            Value: 75.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -7209,7 +7214,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 60.0
+            Value: 75.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
