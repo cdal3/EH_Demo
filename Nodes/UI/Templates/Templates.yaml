@@ -5641,7 +5641,7 @@ Children:
                   DataType: LocalizedText
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: {"LocaleId":"","Text":"{/Objects/EH_Demo/CommDrivers/RAEtherNet_IPDriver1/CLX_EH/Tags/Controller Tags/TankPage/{0}/Row/{1}/HMI/TOV:n2}"}
+                  Value: {"LocaleId":"","Text":"/Objects/EH_Demo/CommDrivers/RAEtherNet_IPDriver1/CLX_EH/Tags/Controller Tags/TankPage/{0}/Row/{1}/HMI/TOV"}
                 - Name: ns=3;Source0
                   Type: BaseDataVariableType
                   DataType: BaseDataType

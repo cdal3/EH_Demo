@@ -17,6 +17,7 @@ using FTOptix.UI;
 using FTOptix.Core;
 using FTOptix.Alarm;
 using FTOptix.EventLogger;
+using FTOptix.WebUI;
 #endregion
 
 public class RuntimeNetLogic1 : BaseNetLogic

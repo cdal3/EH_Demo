@@ -14,6 +14,7 @@ using FTOptix.DataLogger;
 using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.EventLogger;
+using FTOptix.WebUI;
 #endregion
 
 public class LoginFormOutputMessageLogic : BaseNetLogic
